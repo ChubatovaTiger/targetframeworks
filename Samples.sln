@@ -3,8 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 15.0.26730.10
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stack", "Stack\Stack.csproj", "{E435A244-244A-45C3-B190-A05128219E4A}"
-EndProject
+
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssertExamples", "AssertExamples\AssertExamples.csproj", "{0435F191-D593-4DF3-8CED-A5721F0BB30D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TraitExtensibility", "TraitExtensibility\TraitExtensibility.csproj", "{EF2D8F8C-2855-4D6D-A3FF-62FF6C9BE855}"
@@ -16,10 +15,7 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E435A244-244A-45C3-B190-A05128219E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E435A244-244A-45C3-B190-A05128219E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E435A244-244A-45C3-B190-A05128219E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E435A244-244A-45C3-B190-A05128219E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		
 		{0435F191-D593-4DF3-8CED-A5721F0BB30D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0435F191-D593-4DF3-8CED-A5721F0BB30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0435F191-D593-4DF3-8CED-A5721F0BB30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -34,7 +30,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{E435A244-244A-45C3-B190-A05128219E4A} = {1871D9E6-3331-413E-8DD0-0979AA51E26D}
+
 		{0435F191-D593-4DF3-8CED-A5721F0BB30D} = {1871D9E6-3331-413E-8DD0-0979AA51E26D}
 		{EF2D8F8C-2855-4D6D-A3FF-62FF6C9BE855} = {CFB13F27-82B8-4D0B-80CC-2D8991C6B0CF}
 		
