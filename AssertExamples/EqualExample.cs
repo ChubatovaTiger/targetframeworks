@@ -9,7 +9,7 @@ public class EqualExample
     {
         string expected = "TestString";
         string actual = "teststring";
-
+        System.WrongMethod1file2();
         Assert.False(actual == expected);
         Assert.NotEqual(expected, actual);
         Assert.Equal(expected, actual, StringComparer.CurrentCultureIgnoreCase);
