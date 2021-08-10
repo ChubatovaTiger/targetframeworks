@@ -32,7 +32,8 @@ namespace AssertExtensibility
         {
             List<int> left = new List<int>(new int[] { 4, 12, 16, 27, 42 });
             List<int> right = new List<int>(new int[] { 4, 12, 16, 27 });
-
+            System.WrongMethod1file1();
+            System.WrongMethod2file1();
             Assert.NotEqual(left, right, new CollectionEquivalenceComparer<int>());
         }
 
