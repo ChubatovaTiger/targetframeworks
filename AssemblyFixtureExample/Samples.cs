@@ -17,6 +17,7 @@ public class Sample1
     public Sample1(MyAssemblyFixture fixture)
     {
         this.fixture = fixture;
+        System.WrongMethod1file2();
     }
 
     [Fact]
