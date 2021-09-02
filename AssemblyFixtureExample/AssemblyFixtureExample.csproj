@@ -1,29 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project>
+                      <PropertyGroup>
+                        <PublishFolder>destinationFolder\</PublishFolder>
+                      </PropertyGroup>
+                      <ItemGroup>
+                        <ToTransform Include="$(OutDir)1.txt" />
+                        <ToTransform Include="$(OutDir)2.txt" />
+                      </ItemGroup>
 
-  <PropertyGroup>
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <TargetFramework>net452</TargetFramework>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="xunit" Version="2.4.1" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.2">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-  </ItemGroup>
-
-  <Target Name="Message" AfterTargets="Build">
+                      <Target Name="Message" AfterTargets="Build">
                         <Message Text='Text = $(Text)' Importance='high'/>   
                         <Message Text='OutDir = $(OutDir)' Importance='high'/>
                         <Message Text='Platform = $(Platform)' Importance='high'/>
                         <Message Text="@(ToTransform)" Importance="high" />
                         <Message Text="@(ToTransform->'$(PublishFolder)%(RecursiveDir)%(Filename)%(Extension)')" Importance="high" />
-  </Target>
-
-  <ItemGroup>
-    <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
-  </ItemGroup>
-
-</Project>
+                      </Target>
+ </Project>
