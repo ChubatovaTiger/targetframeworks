@@ -16,7 +16,7 @@
 
   <Target Name="Message" AfterTargets="Build">
                         <Message Text='Text = $(Text)' Importance='high'/>   
-                        <Message Text='OutDir = $(OutDir)' Importance='high'/>
+                        <Message Text='OutDir2 = $(OutDir)' Importance='high'/>
                         <Message Text='Platform = $(Platform)' Importance='high'/>
                         <Message Text="@(ToTransform)" Importance="high" />
                         <Message Text="@(ToTransform->'$(PublishFolder)%(RecursiveDir)%(Filename)%(Extension)')" Importance="high" />
