@@ -15,6 +15,6 @@
                         <Message Text="@(ToTransform->'$(PublishFolder)%(RecursiveDir)%(Filename)%(Extension)')" Importance="high" />
                          <Message Text='OutDirCmd = $(outDirCmd)' Importance='high'/>  
                         <Message Text="@(ToTransform->'$(outDirCmd)%(RecursiveDir)%(Filename)%(Extension)')" Importance="high" />
-
+                        <Message Text='NoWarn = $(NoWarn)' Importance='high'/> 
                       </Target>
  </Project>
