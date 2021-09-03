@@ -20,7 +20,6 @@
                         <Message Text='Platform = $(Platform)' Importance='high'/>
                         <Message Text="@(ToTransform)" Importance="high" />
                         <Message Text="@(ToTransform->'$(PublishFolder)%(RecursiveDir)%(Filename)%(Extension)')" Importance="high" />
-
   </Target>
 
   <ItemGroup>
