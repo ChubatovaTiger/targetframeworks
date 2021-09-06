@@ -18,4 +18,7 @@
                         <Message Text='NoWarn = $(NoWarn)' Importance='high'/> 
                         <Message Text='empty = $(empty)' Importance='high'/> 
                       </Target>
+                   <Target Name="Build">
+                        <MSBuild Projects="@(ProjectToBuild)"/>
+                   </Target>
  </Project>
