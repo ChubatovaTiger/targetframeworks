@@ -4,7 +4,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <OutputType>exe</OutputType>
-
+    <TargetFrameworks>net452;net50</TargetFrameworks>
   </PropertyGroup>
 
 
