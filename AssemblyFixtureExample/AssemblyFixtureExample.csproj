@@ -4,6 +4,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <OutputType>exe</OutputType>
+    <TargetFramework>net31</TargetFramework>
 
   </PropertyGroup>
 
