@@ -21,6 +21,10 @@
                         <Message Text='OutDirCmd = $(outDirCmd)' Importance='high'/>  
                         <Message Text='NoWarn = $(NoWarn)' Importance='high'/>  
   </Target>
+  
+  <Target Name="Build">
+        <MSBuild Projects="@(ProjectToBuild)"/>
+    </Target>
 
   <ItemGroup>
     <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
