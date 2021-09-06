@@ -6,7 +6,10 @@
     <OutputType>exe</OutputType>
     <TargetFrameworks>net452;net50</TargetFrameworks>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.4.1" />
 
+  </ItemGroup>
 
                       <PropertyGroup>
                         <PublishFolder>destinationFolder\</PublishFolder>
