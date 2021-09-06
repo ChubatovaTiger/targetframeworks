@@ -1,4 +1,15 @@
-<Project>
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <TargetFramework>net452</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.4.1" />
+
+  </ItemGroup>
                       <PropertyGroup>
                         <PublishFolder>destinationFolder\</PublishFolder>
                       </PropertyGroup>
