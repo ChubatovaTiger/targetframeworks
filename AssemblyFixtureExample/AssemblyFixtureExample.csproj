@@ -6,7 +6,7 @@
     <TargetFramework>net452</TargetFramework>
     <PropertyGroup>
     <Deterministic>true</Deterministic>
-    <PathMap>$(EnlistmentRoot)=C:\</PathMap>
+
   </PropertyGroup>
   </PropertyGroup>
 
