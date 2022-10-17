@@ -4,7 +4,6 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <TargetFramework>net452</TargetFramework>
-    <PropertyGroup>
     <Deterministic>true</Deterministic>
 
   </PropertyGroup>
