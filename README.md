@@ -4,7 +4,7 @@ This project contains samples that show how to use and extend xUnit.net.
 
 To open an issue for this project, please visit the [core xUnit.net project issue tracker](https://github.com/xunit/xunit/issues).
 
-## About xUnit.net..
+## About xUnit.net..c
 
 [<img align="right" width="100px" src="https://dotnetfoundation.org/img/logo_big.svg" />](https://dotnetfoundation.org/projects?searchquery=xunit&type=project)
 
